@@ -15,7 +15,6 @@ class ClassUsingComponents
 {
 public:
 	ClassUsingComponents();
-	ClassUsingComponents (double value);
 	/**
 	 * constructor does not employ initializer list
 	 */

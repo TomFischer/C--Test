@@ -24,6 +24,7 @@ ENDIF(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_COMPILER_IS_GNUCC)
 
 ADD_SUBDIRECTORY(CopyConstructorAndCo)
 ADD_SUBDIRECTORY(Inheritance)
+ADD_SUBDIRECTORY(InheritanceAndMemoryConsumption)
 ADD_SUBDIRECTORY(InitializerLists)
 
 # Set build directories

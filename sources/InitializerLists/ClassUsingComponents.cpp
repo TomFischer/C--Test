@@ -14,12 +14,6 @@ ClassUsingComponents::ClassUsingComponents() :
 	std::cout << "[ClassUsingComponents] default constructor" << std::endl;
 }
 
-ClassUsingComponents::ClassUsingComponents(double value) :
-	_comp0 (value)
-{
-	std::cout << "[ClassUsingComponents] custom constructor" << std::endl;
-}
-
 ClassUsingComponents::ClassUsingComponents(bool test)
 {
 	if (test)
